@@ -19,7 +19,7 @@ ul li a, figcaption a {
 
 header > img {
   width: 100px;
-  float: left;
+  /* float: left; */
 }
 
 .ingredients-list {
@@ -70,9 +70,9 @@ nav {
     float: right;
 }
 
-nav ul li {
+/* nav ul li {
     display: inline-block;
-}
+} */
 
 nav ul li a {
     padding: 20px;
@@ -110,3 +110,10 @@ label {
     display: block;
 }
 
+header ul{
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+}
